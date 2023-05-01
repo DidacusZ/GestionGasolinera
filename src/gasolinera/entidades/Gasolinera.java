@@ -6,13 +6,15 @@ public class Gasolinera {
 	
 	private int id;
 
-	private String fecha;
+	private String dni = "aaaaaaaaaaaaaa";
 	
-	private String matricula;
+	private String fecha = "aaaaaaaaaaaaaa";
 	
-	private double litros;
+	private String matricula= "aaaaaaaaaaaaaa";
 	
-	private double importe;
+	private double litros = 0.0;
+	
+	private double importe= 0.0;
 	
 	//getters y setters
 	
@@ -74,8 +76,6 @@ public class Gasolinera {
 		this.litros = litros;
 		this.importe = importe;
 	}
-
-	private String dni;
 	
 	
 	// constructor vacio
