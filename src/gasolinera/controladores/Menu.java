@@ -50,8 +50,8 @@ public class Menu {
 					System.out.println(BD.get(i).toString());
 				}
 
-				System.out.println("Pulsa una tecla para volver al menu");
-				
+				System.out.print("Escribe para volver al menu: ");
+				sc.next();
 				break;
 
 			case 0:
@@ -62,8 +62,9 @@ public class Menu {
 
 		} while (verdad);
 
-		System.out.println("ads");
+		System.out.println("Adios, gracias por usar mi aplicación");
 
+		sc.close();
 	}
 
 }
